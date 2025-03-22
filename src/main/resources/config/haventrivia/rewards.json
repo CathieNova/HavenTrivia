@@ -1,0 +1,37 @@
+{
+  "easy": {
+    "items": [
+      { "item_name": "minecraft:apple", "display_name": "3x Apple", "quantity": 3 },
+      { "item_name": "minecraft:iron_ingot", "display_name": "2x Iron Ingot", "quantity": 2 }
+    ],
+    "commands": [
+      { "command": "give {player} minecraft:cookie 5", "display_name": "5x Cookies" }
+    ]
+  },
+  "medium": {
+    "items": [
+      { "item_name": "minecraft:gold_ingot", "display_name": "2x Gold Ingot", "quantity": 2 },
+      { "item_name": "minecraft:arrow", "display_name": "10x Arrows", "quantity": 10 }
+    ],
+    "commands": [
+      { "command": "xp add {player} 10 levels", "display_name": "10x Levels" }
+    ]
+  },
+  "hard": {
+    "items": [
+      { "item_name": "minecraft:diamond", "display_name": "1x Diamond", "quantity": 1 },
+      { "item_name": "minecraft:ender_pearl", "display_name": "3x Ender Pearls", "quantity": 3 }
+    ],
+    "commands": [
+      { "command": "give {player} minecraft:totem_of_undying", "display_name": "1x Totem of Undying" }
+    ]
+  },
+  "impossible": {
+    "items": [
+      { "item_name": "minecraft:nether_star", "display_name": "1x Nether Star", "quantity": 1 }
+    ],
+    "commands": [
+      { "command": "effect give {player} minecraft:strength 60 10", "display_name": "Strength X for 60 Sec" }
+    ]
+  }
+}
